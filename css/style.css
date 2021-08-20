@@ -1,0 +1,109 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+button,th,.day{
+	background: #d5d5d5;
+	color: #56abc9;
+	border: 0;
+	font-weight: 700;
+}
+.sect{
+	width: 19.5%;
+}
+button.nav-link{
+	background: #e7e7e7!important;
+	color: #a6a9a8!important;
+}
+button.active{
+	background: #33a0c7!important;
+	color: #fff!important;
+}
+
+th,td,.day{
+	border: 1px solid #c9c9c9;
+}
+td{
+	width: 14%;
+}
+th{
+	width: 7%;
+}
+.selected,.task{
+	color: #fff;
+	background: #34a0c7;
+	font-weight: 700;
+}
+.grey{
+	color: #c5c5c6;
+}
+h4{
+	color: #61b2d2;
+}
+.sp2{
+	background: #d5d5d5;
+}
+h6{
+	font-size: 18px;
+	font-weight: 600;
+}
+label{
+	font-size: 16px;
+	font-weight: 500;
+}
+#back{
+	background: #9a9c9c;
+	color: #fff;
+}
+#save{
+	color: #fff;
+	background: #33a0c7;
+}
+.section21{
+	box-shadow: 3px 3px 6px grey;
+}
+input,select{
+	outline: 0px;
+	border: 0px;
+}
+p{
+	font-weight: 600;
+}
+.section1{
+	background: #d5d5d5;
+}
+input[type="file"] {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+input[type="checkbox"]{
+	display: none;
+}
+
+.label_check>span {
+	width: 20px; 
+  	height: 20px;
+  	background: #fff;
+  	cursor: pointer; 
+}
+.label_check {
+    display: block;
+    position: relative;
+    cursor: pointer; 
+}
+input[type="checkbox"]:checked + span {
+    background-position: 0 -26px;
+    background: url(../img/check.png) no-repeat; 
+}
+#file{
+	height: 40px;
+	width: 40px;
+}
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+
+}

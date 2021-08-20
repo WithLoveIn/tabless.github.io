@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Мала</title>
+</head>
+<body>
+	<div class="container p-0">
+		<div class="row m-0">
+			<div class="col-12 my-5 d-flex p-0 justify-content-between">
+				<button class="sect py-2"  onClick='location.href="index.html"'>Зала засідання</button>
+				<button class="sect py-2 selected" onClick='location.href="Mala_zala.html"'>Мала зала засідань (кім.455-Б)</button>
+				<button class="sect py-2" onClick='location.href="Zala_zasidan.html"'>Зала засідань (кім.357)</button>
+				<button class="sect py-2" onClick='location.href="Velika_zala.html"'>Велика зала КМУ (8 поверх)</button>
+				<button class="sect py-2" onClick='location.href="Klub.html"'>Клуб КМУ</button>
+			</div>
+		</div>
+		<div class="row m-0">
+			<div class="col-12 p-0 scrollmenu">
+				<table class="col-12 text-center p-0">
+					<thead>
+						<tr>
+							<th></th>
+							<td class="day">Пн 17.02</th>
+							<td class="day">Вт 18.02</th>
+							<td class="day">Ср 18.02</th>
+							<td class="day">Чт 18.02</th>
+							<td class="day">Пт 18.02</th>
+							<td class="day">Сб 18.02</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>8:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>8:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>9:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td rowspan="3" class="task">Засідання</td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>9:30</th>			
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>10:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>10:30</th>
+							<td rowspan="4" class="task">Відео-конференція</td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>11:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>11:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td rowspan="6" class="task">Нарада</td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>12:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>12:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>13:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>13:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>14:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>14:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>15:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td rowspan="3" class="task">Нарада</td>
+						</tr>
+						<tr>
+							<th>15:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>16:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>16:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>17:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>17:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>18:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>18:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>19:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>19:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>20:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>20:30</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+						<tr>
+							<th>21:00</th>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+							<td data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>		
+	</div>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="container p-0">
+	      	<ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
+	      		<li class="nav-item col-6 d-flex justify-content-center" role="presentation">
+	      			<button class="nav-link active col-12" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Забронювати залу</button>
+	      		</li>
+	      		<li class="nav-item col-6 d-flex justify-content-center" role="presentation">
+	      			<button class="nav-link col-12" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Організаційне забезпечення заходу</button>
+	      		</li>
+	      	</ul>
+	      	<div class="tab-content" id="myTabContent">
+	      		<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+	      			<div class="row m-0 section1">
+	      				<div class="col-lg-5 col-12 p-3">
+	      					<p class="m-1">Назва заходу</p>
+	      					<input type="text" class="col-12 p-2">
+	      					<p class="m-1">Головує</p>
+	      					<select name="Number_room" required="required" class="col-12 p-2">
+								<option value=""></option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+	      					<p class="m-1">Присутні (сторонні організації)</p>
+	      					<select name="Number_room" required="required" class="col-12 p-2">
+								<option value=""></option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+	      					<p class="m-1">Кількість присутніх</p>
+	      					<input type="text" class="col-12 p-2">
+	      					<p class="m-1">Відповідальний департамент</p>
+	      					<select name="Number_room" required="required" class="col-12 p-2">
+								<option value=""></option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+	      					<p class="m-1">Контактна особа</p>
+	      					<input type="text" class="col-12 p-2">
+	      					<p class="m-1">Телефон для зворотнього зв'язку</p>
+	      					<input type="text" class="col-12 p-2">
+	      					<p class="m-1">Адреса електронної пошти</p>
+	      					<input type="text" class="col-12 p-2">
+	      				</div>
+	      				<div class="col-lg-7 col-12 p-3 d-flex flex-column justify-content-between">
+	      					<div>
+	      						<div class="col-12 d-flex">
+	      							<div class="col-6 px-2">
+	      								<p class="m-1">Дата</p>
+	      								<input type="date" class="col-12 p-2">
+	      							</div>
+	      							<div class="col-6 px-2">
+	      								<p class="m-1">Номер зали</p>
+	      								<select name="Number_room" required="required" class="col-12 p-2">
+	      									<option value=""></option>
+	      									<option value="1">1</option>
+	      									<option value="2">2</option>
+	      									<option value="3">3</option>
+	      									<option value="4">4</option>
+	      									<option value="5">5</option>
+	      									<option value="6">6</option>
+	      								</select>
+	      							</div>
+	      						</div>
+	      						<div class="col-12 d-flex">
+	      							<div class="col-6 px-2">
+	      								<p class="m-1">Час</p>
+	      								<input type="time" class="col-12 p-2">
+	      							</div>
+	      							<div class="col-6 px-2">
+	      								<p class="m-1">Форма заходу</p>
+	      								<select name="Number_room" required="required" class="col-12 p-2">
+	      									<option value=""></option>
+	      									<option value="1">1</option>
+	      									<option value="2">2</option>
+	      									<option value="3">3</option>
+	      									<option value="4">4</option>
+	      									<option value="5">5</option>
+	      									<option value="6">6</option>
+	      								</select>
+	      							</div>
+	      						</div>
+	      						<div class="px-2">
+	      							<p class="m-1">Примітка</p>
+	      							<textarea rows="5" class="col-12"></textarea>
+	      						</div>
+	      						<div class="px-2 download position-relative d-flex align-items-center my-2 py-2">
+	      							<img src="img/file.png" alt="file" id="file">
+	      							<p class="ms-2 my-2 ">Завантажити файли(програма, список учасників)</p>
+	      							<input type="file" name="file" class="col-12">
+	      						</div>
+	      					</div>
+	      					<div class="col-12 d-flex justify-content-between px-2">
+	      						<button id="back" class="p-3 col-md-4 col-5" aria-label="Close" data-bs-dismiss="modal">Назад</button>
+	      						<button id="save" class="p-3 col-md-4 col-5">Зберегти</button>
+	      					</div>
+	      				</div>
+	      			</div>
+	      		</div>
+	      		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+	      			<div class="row m-0">
+	      				<div class="col-lg-4 col-12 ps-0 pe-3 ps-3 ps-lg-0 d-flex mb-3 mb-lg-0">
+	      					<div class="col-12 d-flex p-4 justify-content-center flex-column section21">
+	      						<h4>Малий зал 455-б</h4>
+	      						<p><span class="grey">Зустріч:</span> з представництвом міжнародної бізнес-асоціації</p>
+	      						<p><span class="grey">Головує:</span> Міністр</p>
+	      						<p><span class="grey">Дата:</span> 20.02.2020</p>
+	      						<p><span class="grey">Час:</span> з 12:00 - 14:00</p>
+	      						<p><span class="grey">Кількість присутніх:</span> 12</p>
+	      						<p><span class="grey">Контактна особа:</span> Іванов Іван</p>
+	      						<p><span class="grey">Телефон:</span> 200-00-00 (2011)</p>
+	      						<p><span class="grey">e-mail:</span> iv@me.gov.ua</p>
+	      					</div>
+	      				</div>
+	      				<div class="col-lg-8 col-12 sp2 p-lg-4 p-24 pt-3">
+	      					<h6>НАПОЇ ТА ЇЖА</h6>
+	      					<div class="d-flex row">
+	      						<div class="col-lg-4 col-6 d-flex flex-column">
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Негазована вода</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Газована вода</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Чай</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Кава</label>	
+	      						</div>
+	      						<div class="col-lg-4 col-6 d-flex flex-column">
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Цукор</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Солодощі</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Печиво</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Обід</label>	
+	      						</div>
+	      						<div class="col-lg-4 col-6 d-flex flex-column">
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Кава-брейк</label>
+	      						</div>
+	      					</div>
+	      					<h6 class="mt-3">ПЕРЕКЛАД</h6>
+	      					<div class="d-flex justify-content-between mb-3">
+	      						<div class="col-lg-6 col-8 d-flex flex-column">
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Усний синхронний переклад</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Усний послідовний переклад</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Письмовий переклад</label>
+	      						</div>
+	      						<div class="col-4 d-flex flex-column">
+	      							<p>Мова перекладу</p>
+	      							<input type="text" class="p-2">	
+	      						</div>
+	      					</div>
+	      					<h6>ОРГТЕХНІКА</h6>
+	      					<div class="d-flex justify-content-between mb-5">
+	      						<div class="col-6 d-flex flex-column">
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Ноутбук</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Проектор</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Флипчарт</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Мікрофон</label>
+	      							<label class="label_check d-flex align-items-center"><input type="checkbox" class="me-2"><span class="me-2"></span>Фотоапарат</label>
+	      						</div>
+	      						<div class="col-4 d-flex flex-column">
+	      							<p>Примітка</p>
+	      							<input type="text" class="p-2">	
+	      						</div>
+	      					</div>
+	      					<div class="col-12 d-flex justify-content-between mb-4">
+	      						<button id="back" class="p-3 col-md-4 col-5" aria-label="Close" data-bs-dismiss="modal">Назад</button>
+	      						<button id="save" class="p-3 col-md-4 col-5">Зберегти</button>
+	      					</div>
+	      				</div>
+	      			</div>
+
+	      		</div>
+	      	</div>
+	      	
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
